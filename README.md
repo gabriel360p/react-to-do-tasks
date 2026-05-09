@@ -1,16 +1,92 @@
-# React + Vite
+# 📝 To-Do Tarefas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um aplicativo de gerenciamento de tarefas desenvolvido com React, focado em praticar conceitos modernos de frontend como componentização, manipulação de estado, persistência de dados com LocalStorage e renderização dinâmica.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tecnologias utilizadas
 
-## React Compiler
+* ⚛️ React
+* 🎨 Styled Components
+* 💾 LocalStorage
+* 🧠 Hooks (`useState`, `useEffect`, `useRef`)
+* 📦 JavaScript
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* ✅ Criar tarefas
+* 🗑 Remover tarefas
+* ✏️ Editar descrição da tarefa
+* ✔️ Marcar tarefa como concluída
+* 💾 Persistência de dados com LocalStorage
+* 🔄 Atualização dinâmica da interface
+* 📱 Layout responsivo
+
+---
+
+## 🧠 Conceitos praticados
+
+Esse projeto foi desenvolvido para praticar:
+
+* Manipulação de arrays com:
+
+  * `map()`
+  * `filter()`
+  * `find()`
+
+* Imutabilidade no React
+
+* CRUD no frontend
+
+* Componentes controlados
+
+* Eventos no React
+
+* Persistência de estado
+
+* Renderização condicional
+
+* Gerenciamento de estado
+
+---
+
+## 💻 Como executar o projeto
+
+Clone o repositório:
+
+```bash id="n3"
+https://github.com/gabriel360p/react-to-do-tasks.git
+```
+
+Entre na pasta:
+```bash id="n4"
+cd taskflow
+```
+
+Instale as dependências:
+```bash id="n5"
+npm install
+```
+
+Execute o projeto:
+```bash id="n6"
+npm run dev
+```
+---
+
+## 📌 Melhorias futuras
+
+* 🌙 Dark mode
+* 📅 Datas e deadlines
+* 🔍 Filtro de tarefas
+* ☁️ Backend com API
+* 🔐 Autenticação
+* 📱 PWA
+
+---
+
+## 👨‍💻 Autor
+
+Feito por Gabriel Costa 🚀
