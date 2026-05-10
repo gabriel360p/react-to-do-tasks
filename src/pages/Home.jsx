@@ -124,7 +124,7 @@ function App() {
       <AppWrapper>
         <Content>
           <Header>
-            <Title>Minhas Tarefas</Title>
+            <Title>Tarefas</Title>
           </Header>
           <CreateTask>
             <TaskInput
@@ -145,7 +145,9 @@ function App() {
                         onChange={(e) => saveTask(task.id, e.target.value)}
                       ></TaskInput>
                     </TaskDescription>
-                    <Legend status={task.concluid}>{task.concluid ? "Tarefa Concluida" : "Pendente"}</Legend>
+                    <Legend status={task.concluid}>
+                      {task.concluid ? "Tarefa Concluida" : "Pendente"}
+                    </Legend>
                     <TaskFooter>
                       <Actions>
                         <ActionButton onClick={() => deleteTask(task.id)}>
