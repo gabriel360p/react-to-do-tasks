@@ -8,6 +8,6 @@ export const GlobalStyles = createGlobalStyle`
 }
 
     #root{
-        /* height: 100vw; */
+        /* height: 100vh; */
     }
 `;

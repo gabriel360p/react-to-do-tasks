@@ -8,14 +8,15 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
 
-  padding: 2rem;
+  padding: 24px;
+  /* overflow: scroll; */
 `;
 
 export const AppWrapper = styled.div`
   width: 100%;
   max-width: 1200px;
 
-  min-height: 85vh;
+  height: 100vh;
 
   background: rgba(255, 255, 255, 0.04);
 
@@ -25,7 +26,7 @@ export const AppWrapper = styled.div`
 
   border-radius: 30px;
 
-  overflow: hidden;
+  /* overflow: hidden; */
 
   display: flex;
   flex-direction: column;
@@ -53,7 +54,7 @@ export const Menu = styled.div`
 export const MenuButton = styled.button`
   width: 100%;
 
-  padding: 1rem;
+  /* padding: 1rem; */
 
   border-radius: 16px;
   border: none;
@@ -82,7 +83,6 @@ export const Content = styled.main`
 
   display: flex;
   flex-direction: column;
-
   gap: 2rem;
 
   overflow-y: auto;
@@ -208,7 +208,7 @@ export const Legend = styled.span`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: clamp(8vw,8rem,50%);
+  width: clamp(9vw, 8rem, 50%);
   border-radius: 10px;
   background-color: ${(props) => (props.status ? "green" : "red")};
 `;
